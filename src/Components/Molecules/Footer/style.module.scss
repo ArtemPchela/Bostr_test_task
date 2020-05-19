@@ -1,0 +1,55 @@
+.footer {
+  min-height: 350px;
+  background: #2D2D2D;
+
+  &_wrapper {
+    padding: 35px 0 0 0;
+
+    &_logo {
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+
+      &_image {
+        width: 24px;
+        height: 24px;
+        margin-right: 6px;
+      }
+    }
+
+    &_nav {
+      display: flex;
+      padding-right: 7px;
+
+      &_link {
+        width: 33.3333%;
+        padding-left: 18px;
+
+        &_title {
+          font-size: 14px;
+          color: #ffffff;
+        }
+
+        &_links {
+          padding-top: 14px;
+          font-size: 9px;
+          color: #ffffff;
+          display: block;
+        }
+      }
+    }
+
+    &_copyright {
+      display: flex;
+      justify-content: center;
+      padding-top: 235px;
+      padding-bottom: 15px;
+      color: #ffffff;
+      font-size: 12px;
+    }
+  }
+}
+
+

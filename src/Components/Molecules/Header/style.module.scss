@@ -1,0 +1,48 @@
+.header {
+  padding: 13px 0;
+  background: #fff;
+  color: #534f4f;
+  font-size: 22px;
+  font-weight: 700;
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 7px;
+
+    &_image {
+      width: 24px;
+      height: 24px;
+      margin-right: 4px;
+    }
+  }
+
+  &_buttonWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &_button {
+    cursor: pointer;
+    min-width: 100px;
+    min-height: 29px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 3px 2px 6px 0;
+    margin-left: 15px;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    background: #fff;
+    @media (min-width: 768px) {
+      margin-left: 30px;
+    }
+    &:hover {
+      box-shadow: rgba(0, 0, 0.5, 5);
+      cursor: pointer;
+    }
+  }
+}
+
