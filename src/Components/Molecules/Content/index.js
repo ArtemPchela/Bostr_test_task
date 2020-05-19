@@ -28,7 +28,7 @@ export default function Content() {
 
     const getCards = () => {
         axios
-            .get("./cards.json1")
+            .get("./cards.json")
             .then(response => {
                 console.log(response);
                    setCards(response.data)
