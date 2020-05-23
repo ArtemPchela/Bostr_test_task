@@ -1,0 +1,35 @@
+.social {
+
+  @media (min-width: 576px) {
+    padding-top: 15px;
+  }
+  @media (min-width: 768px) {
+    padding-top: 5px;
+  }
+
+  &_list {
+    display: flex;
+    justify-content: flex-end;
+
+
+    &_items {
+      padding-left: 13px;
+
+      &_pic {
+        width: 20px;
+        position: relative;
+        bottom: 0;
+        transition: 0.5s;
+        border-radius: 5px;
+        @media (max-width: 576px) {
+          padding-top: 15px
+        }
+
+        &:hover {
+          bottom: 5px;
+          box-shadow: 0 5px 10px deepskyblue;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@media (min-width: 576px) {
+  .social {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .social {
+    padding-top: 5px;
+  }
+}
+.social_list {
+  display: flex;
+  justify-content: flex-end;
+}
+.social_list_items {
+  padding-left: 13px;
+}
+.social_list_items_pic {
+  width: 20px;
+  position: relative;
+  bottom: 0;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+@media (max-width: 576px) {
+  .social_list_items_pic {
+    padding-top: 15px;
+  }
+}
+.social_list_items_pic:hover {
+  bottom: 5px;
+  box-shadow: 0 5px 10px deepskyblue;
+}
+
+/*# sourceMappingURL=style.module.css.map */
